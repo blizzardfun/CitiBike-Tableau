@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Bootstrap Visualization Dashboard" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CitiBike Data</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+ 
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+
+<body>
+    <nav style="background-color:#052b6c;color:#0098e4;" class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="./index.html">2018 New York City Citi Bike Data</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li>
+                        <a href="./start.html">Start Stations</a>
+                    </li>
+                    <li>
+                        <a href="./destination.html">Destination Stations</a>
+                    </li>
+                    <li>
+                        <a href="./usage.html">Station Usage Dashboard</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row row-grid">
+            <div class="col-md-12">
+                <div class="graph graph-left">
+                        <!-- Insert Tableau Story Line -->
+
+                        <div class='tableauPlaceholder' id='viz1548648641382' style='position: relative'>
+                            <noscript>
+                                <a href='#'>
+                                    <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Us&#47;UsageDash2018&#47;UsageDash&#47;1_rss.png' style='border: none' />
+                                </a>
+                            </noscript>
+                            <object class='tableauViz'  style='display:none;'>
+                                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                                <param name='embed_code_version' value='3' /> 
+                                <param name='site_root' value='' />
+                                <param name='name' value='UsageDash2018&#47;UsageDash' />
+                                <param name='tabs' value='no' />
+                                <param name='toolbar' value='yes' />
+                                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Us&#47;UsageDash2018&#47;UsageDash&#47;1.png' /> 
+                                <param name='animate_transition' value='yes' />
+                                <param name='display_static_image' value='yes' />
+                                <param name='display_spinner' value='yes' />
+                                <param name='display_overlay' value='yes' />
+                                <param name='display_count' value='yes' />
+                            </object>
+                        </div>                
+                        <script type='text/javascript'>                    
+                        var divElement = document.getElementById('viz1548648641382');                   
+                        var vizElement = divElement.getElementsByTagName('object')[0];                   
+                         vizElement.style.minWidth='420px';
+                         vizElement.style.maxWidth='1550px';
+                         vizElement.style.width='100%';
+                         vizElement.style.minHeight='587px';
+                         vizElement.style.maxHeight='887px';
+                         vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
+                         var scriptElement = document.createElement('script');                    
+                         scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                         vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+                         </script>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js " integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa " crossorigin="anonymous"></script> 
+</body>
+</html>
