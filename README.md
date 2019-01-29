@@ -5,3 +5,13 @@ cleaned up and prepared with Jupyter Notebooks. The Notebooks used are available
 using Excel which is not available. Analysis was done on Tableau and made available by embedding the workbooks in the index.html on this repository. 
 
 The deployed app can be found at https://blizzardfun.github.io/CitiBike-Tableau/
+
+There are 4 views. 
+
+The station story shows Citibike station usage for both the starting station of a trip and the ending station and compares it across 3 months plus a cumulative of the 3 months. Station usage level is indicated both as a color difference and in a tool tip.
+
+The start station view shows the top 10 and also the bottom 10 most/least used stations for starting a trip. These stations are shown as both a list and a map. 
+
+The destination station view is the same as the start station view except for the destination station of a trip.
+
+The usage dash shows various usage levels for both January and July for a selected station. The usage levels include hourly usage, and a break down by gender and usertype. The hourly usage graph shows interesting variation from station to station and invites further analysis of the surroundings for each station. 
