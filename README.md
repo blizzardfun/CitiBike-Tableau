@@ -9,7 +9,7 @@ The deployed app can be found at https://blizzardfun.github.io/CitiBike-Tableau/
 
 There are 4 views. 
 
-The station story shows Citibike station usage for both the starting station of a trip and the ending station and compares it across 3 months plus a cumulative of the 3 months. Station usage level is indicated both as a color difference and in a tool tip.
+The station story shows Citibike station usage for both the starting station of a trip and the ending station plotted on a map. There are maps for 3 separate months plus a cumulative of the 3 months. Station usage level is indicated both as a color difference and in a tool tip.
 
 The start station view shows the top 10 and also the bottom 10 most/least used stations for starting a trip. These stations are shown as both a list and a map. 
 
