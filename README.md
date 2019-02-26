@@ -9,12 +9,17 @@ Analysis was done in Tableau Public. The size of the data required multiple work
 
 There are 4 views. 
 
-The station story shows Citibike station usage for both the starting station of a trip and the ending station plotted on a map. There are maps for 3 separate months plus a cumulative of the 3 months. Station usage level is indicated both as a color difference and in a tool tip.
+The station story shows Citibike station usage for both the starting station of a trip and the ending station plotted on a map. There are maps for 3 separate months plus a cumulative of the 3 months. Station usage level is indicated both as a color difference (foreground blue = Start, background pink = End)  and in a tool tip.
 
+![start_end_stations](startend.png)
 
-The start station view shows the top 10 and also the bottom 10 most/least used stations for starting a trip. These stations are shown as both a list and a map. 
+The start station view shows the top 10 and also the bottom 10 most/least used stations for starting a trip on the date selected. These stations are shown as both a list and a map. 
+
+![start_stations](start.png)
 
 The destination station view is the same as the start station view except for the destination station of a trip.
 
+![destination_stations](end.png)
 The usage dash shows various usage levels for both January and July for a selected station. The usage levels include hourly usage, and a break down by gender and usertype. The hourly usage graph shows interesting variation from station to station and invites further analysis of the surroundings for each station. 
-re
+![station_usage](stationusage1.png)           
+![station_usage_2](stationusage2.png)
