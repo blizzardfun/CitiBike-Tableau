@@ -2,7 +2,7 @@
 Analysis of the New York City CitiBike Program using Tableau.
 
 Data was downloaded from the [CitiBike Site](https://www.citibikenyc.com/system-data)
-cleaned up and prepared with Jupyter Notebooks. The Notebooks used are available on GitHub. Some small amount of cleanup to stations was done 
+cleaned up and prepared using Python in Jupyter Notebooks. The Notebooks used are available on GitHub. Some small amount of cleanup to stations was done 
 using Excel. 
 
 Analysis was done in Tableau Public. The size of the data required multiple workbooks so they have been made available here by embedding the workbooks in html.
