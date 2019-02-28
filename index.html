@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
  
     <script src="https://d3js.org/d3.v4.min.js"></script>
-    <!-- <link rel="stylesheet" href="/static/css/style.css" /> -->
+
 </head>
 
 <body>
@@ -26,7 +26,9 @@
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-
+                    <li>
+                        <a href="./storyline.html">Usage Through the Year</a>
+                    </li>
                     <li>
                         <a href="./start.html">Start Stations</a>
                     </li>
@@ -40,46 +42,28 @@
             </div>
         </div>
     </nav>
-    <div class="container">
-        <div class="row row-grid">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="graph graph-left">
-                        <!-- Insert Tableau Story Line -->
+      <!-- Header -->
+  <!-- <div class="masthead d-flex"> -->
+    <div class="container text-left my-auto">
+      <h1><em>New York City CitiBike Stations</em></h1>
+        <h3 ><i>The goal of this project is to answer the following questions.</i></h3>
+            <h4 ><i>How does usage change through the year?</i></h4>
+            <h4 ><i>What are popular starting points and destinations on different days?</i></h4>
+            <h4><i>What are the specific usage patterns for each station?</i></h4>
+        
+    <!-- </div>
+    <div class="overlay"></div> -->
+  </div>
 
-                        <div class='tableauPlaceholder' id='viz1548690211999' style='position: relative'>
-                            <noscript>
-                                <a href='#'>
-                                    <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;St&#47;StationStory2018&#47;Story1&#47;1_rss.png' style='border: none' />
-                                </a>
-                            </noscript>
-                            <object class='tableauViz'  style='display:none;'>
-                                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-                                <param name='embed_code_version' value='3' /> 
-                                <param name='site_root' value='' />
-                                <param name='name' value='StationStory2018&#47;Story1' />
-                                <param name='tabs' value='no' />
-                                <param name='toolbar' value='yes' />
-                                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;St&#47;StationStory2018&#47;Story1&#47;1.png' /> 
-                                <param name='animate_transition' value='yes' />
-                                <param name='display_static_image' value='yes' />
-                                <param name='display_spinner' value='yes' />
-                                <param name='display_overlay' value='yes' />
-                                <param name='display_count' value='yes' />
-                            </object>
-                        </div>                
-                        <script type='text/javascript'>                    
-                        var divElement = document.getElementById('viz1548690211999');                   
-                         var vizElement = divElement.getElementsByTagName('object')[0];                    
-                         vizElement.style.width='1016px';vizElement.style.height='991px';                    
-                         var scriptElement = document.createElement('script');                    
-                         scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                   
-                         vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-                         </script>
+    <div class="row">
+            <div class="col-xs-offset-3 col-xs-6 col-sm-offset-3 col-sm-6 col-md-offset-3 col-md-6">
+                <div class="thumbnail fluid">
+                <img src="img/citibike1.jpg" alt="Citibike" >
                 </div>
             </div>
-        </div>
+ 
     </div>
-
+   
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous"></script>
