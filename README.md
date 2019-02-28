@@ -13,15 +13,15 @@ There are 4 views.
 
 The station story shows Citibike station usage for both the starting station of a trip and the ending station plotted on a map. There are maps for 3 separate months plus a cumulative of the 3 months. Station usage level is indicated both as a color difference (foreground blue = Start, background pink = End)  and in a tool tip.
 
-![startend.png](startend.png)
+![startend.png](img/startend.png)
 
 The start station view shows the top 10 and also the bottom 10 most/least used stations for starting a trip on the date selected. These stations are shown as both a list and a map. 
 
-![start.png](start.png)
+![start.png](img/start.png)
 
 The destination station view is the same as the start station view except for the destination station of a trip.
 
-![end.png](end.png)
+![end.png](img/end.png)
 The usage dash shows various usage levels for both January and July for a selected station. The usage levels include hourly usage, and a break down by gender and usertype. The hourly usage graph shows interesting variation from station to station and invites further analysis of the surroundings for each station. 
-![stationusage1.png](stationusage1.png)           
-![stationusage2.png](stationusage2.png)
+![stationusage1.png](img/stationusage1.png)           
+![stationusage2.png](img/stationusage2.png)
